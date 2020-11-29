@@ -1,54 +1,76 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
-    <title>Портфолио Junior верстальщика Егора Шаповалова</title>
-  </head>
 
-  <body>
-    <header class="page-header">
-      <div class="container">
-      Контакты: email:egorshapovalov10@gmail.com  телефон:+7 926 041 58 07
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic"
+    rel="stylesheet">
+  <title>Портфолио Junior верстальщика Егора Шаповалова</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="container">
+      <a class="header-email" href="mailto:egorshapovalov10@gmail.com">egorshapovalov10@gmail.com</a>
+      <a class="header-phone" href="tel:+79260415807">+7 926 041 58 07</a>
     </div>
-    </header>
+  </header>
 
-    <section class="hero-image">
-      <div class="container">
+  <section class="hero-image">
+    <div class="container">
       <h1 class="heading">EGOR SHAPOVALOV</h1>
       <p>junior верстальщик</p>
     </div>
-    </section>
+  </section>
 
-    <section class="intro">
-      <div class="container">
+  <section class="intro">
+    <div class="container">
       <h2 class="subheading">Давайте познакомимся</h2>
-      <h3>Пара слов о себе 
+      <figure class="user-image">
+        <img src="files/user.jpg" width="534" height="960" alt="Фото Егора">
+      </figure>
+
+      <h3>Пара слов о себе
       </h3>
-      <p>я хорошо учусь и мне нравится  делиться с другом всем</p>
-      <h3>Чем могу быть полезен</h3>
-      <p>Помогаю родителям</p>
+      <p>Я хорошо учусь в школе и мне нравится учиться веб разработке</p>
+      <div>
+        <h3>Чем могу быть полезен</h3>
+        <p>Сделаю красиво</p>
+      </div>
+      <div class="skills">
+        <h3>Мои навыки</h3>
+        <dl class="skills-list">
+          <dt class="skill-html">HTML</dt>
+          <dd class="level"><div style="width: 60%;">60%</div></dd>
+          <dt class="skill-css">CSS</dt>
+          <dd class="level"><div style="width: 40%;">40%</div></dd>
+        </dl>
+      </div>
     </div>
-    </section
-    >
+  </section>
 
-    <section class="portfolio">
-      <div class="container">
-      <h2 class="subheading"> У меня нет работы</h2>
-
+  <section class="portfolio">
+    <div class="container">
+      <h2 class="subheading"> У меня пока нет работы</h2>
       <h3>Сайт инструктора Кекса</h3>
       <p>Небольшой лендинг о школе для начинающих.</p>
-
-      <h3>Здесь блог начинающего верстальщика</h3>
+      <figure class="project-image">
+        <img src="files/project.jpg" width="928" height="536" alt="Cайт инструктора Кекса">
+      </figure>
+      <a class="button" href="source/project/index.html">Открыть страницу</a>
+      <h3>Здесь будет блог начинающего верстальщика</h3>
       <p>Статический блог про обучение HTML и CSS.</p>
     </div>
-    </section>
+  </section>
 
-    <footer class="page-footer">
-      <div class="container">
-      Контакты в подвале
+  <footer class="page-footer">
+    <div class="container">
+      <a class="footer-email" href="mailto:egorshapovalov10@gmail.com">egorshapovalov10@gmail.com</a>
+      <a class="footer-phone" href="tel:+79260415807">+7 926 041 58 07</a>
     </div>
-    </footer>
-  </body>
+  </footer>
+</body>
+
 </html>
