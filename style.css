@@ -48,7 +48,7 @@ body {
 .hero-image {
   margin-bottom: 620px;
   min-height: 726px;
-  background-image: url(img/wonder-day-images-brawl-stars-148.jpg);
+  /* background-image: url(img/wonder-day-images-brawl-stars-148.jpg); */
 }
 
 .hero-image .container {
@@ -63,14 +63,14 @@ body {
   font-size: 88px;
   line-height: 96px;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .hero-image p {
   margin: 0;
   font-size: 32px;
   line-height: 48px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .intro {
